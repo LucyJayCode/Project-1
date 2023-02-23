@@ -1,0 +1,349 @@
+/* nav {
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   background-color: #F9B5D0;
+   padding: 15px;
+}
+
+.itemOne {
+   text-decoration: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 30px;
+   color:darkblue;
+   text-transform: uppercase;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.item {
+   text-decoration: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 20px;
+   color:darkblue;
+   text-transform: uppercase;
+   align-content: space-between;
+   margin: 20px;
+}
+  
+.item:hover {
+   color: #7B2869;
+}
+
+.itemOne:hover {
+   color: #7B2869;
+}
+
+.heading {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 30px;
+   color: #3A4F7A;
+}
+
+.network {
+   display: flex;
+   justify-content: center;
+}
+
+.headingOne {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.image {
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+}
+
+.par {
+   margin-left: 120px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 30px;
+   color: #0A2647;
+}
+
+.myBody {
+   background-image: url(https://img.freepik.com/premium-photo/bright-light-saturated-soft-abstract-background-beautiful-sunset-over-the-sea_156396-562.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.parTwo {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 20px;
+   color: #0A2647;
+   margin-left: 40px;
+}
+
+.imageTwo {
+   margin-left: 30%;
+}
+
+.myBodyFour {
+   background-image: url(https://i.pinimg.com/736x/1f/9c/52/1f9c52b19e7c650fec07dc659002b685.jpg);
+   background-size: cover;
+   background-position: top;
+   background-repeat: space;
+}
+
+.reviews {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.one {
+   margin-left: 100px;
+}
+
+.two {
+   margin-top: 90px;
+   margin-left: 250px;
+} */
+
+body {
+   background-color: #A0C3D2;
+}
+
+.heading {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+h1, h3 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 60px;
+   color: #7B2869;
+}
+
+.photo {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.par {
+   margin-left: 20%;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 40px;
+   color: #1A120B;
+}
+
+.headingTwo {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.item {
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 30px;
+   flex: 1;
+   margin: 5px;
+   position: relative;
+}
+
+h4 {
+   position: absolute;
+   top: 15px;
+   left: 40px;
+   background-color: #fff;
+   color: #7B2869;
+   font-size: 0;
+}
+
+.price {
+   position: absolute;
+   background-color: #EAC7C7;
+   color: #000000;
+   bottom: 30px;
+   left: 40px;
+   font-size: 0;
+}
+
+.select {
+   flex: 4;
+}
+
+.select h4 {
+   font-size: 20px;
+   transition: all 1s ease-in;
+}
+
+.select .price {
+   font-size: 20px;
+   transition: all 1s ease-in;
+}
+
+.one {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo2.jpg?v=1673769561920);
+}
+
+.two {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo10.jpg?v=1673769600585);
+}
+
+.three {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo1.jpg?v=1673769572564);
+}
+
+.four {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo3.jpg?v=1673769580120);
+}
+
+.five {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo11.jpg?v=1673769609125);
+}
+
+.six {
+   background-image: url(https://cdn.glitch.global/c86d765f-233c-4634-96ec-8be5ae97d496/photo6.jpg?v=1673769587319);
+} 
+
+#reviews {
+   display: flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+}
+
+h2 {
+   margin-left: 40%;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 45px;
+   color: #7B2869;
+}
+
+h5 {
+   margin-left: 15%;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 25px;
+   color: #7B2869;
+}
+
+.containerTwo {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+#myForm {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-left: 30%;
+   font-family: 'Source Sans Pro', sans-serif;
+   color:#1A120B;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+#myBookBtn {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 25px;
+   font-weight: bolder;
+   color: #EFA3C8;
+   border: 1px solid #1A120B;
+   border-radius: 10px;
+   padding: 10px;
+   font-weight: bolder;
+   background-color: #820000;
+}
+
+.textinput {
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #1A120B;
+   font-size: 20px;
+}
+
+.par2 {
+   text-decoration: none;
+   color: #1A120B;
+}
+
+a {
+   text-decoration: none;
+   font-size: 15px;
+   margin-top: 10px;
+   color: #1A120B;
+}
+
+@media all and (max-width: 800px) {
+   .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 100vh;
+   }
+   
+   .photo {
+      margin-right: 60px;
+   }
+
+   .par {
+      font-size: 10px;
+      margin-right: 50px;
+   }
+
+   h1 {
+      font-size: 30px;
+      margin-right: 70px;
+   }
+
+   h2 {
+      font-size: 30px;
+      margin-right: 60px;
+   }
+
+   h3 {
+      font-size: 30px;
+      margin-right: 120px;
+   }
+
+   h5 {
+      font-size: 25px;
+      margin-right: 130px;
+   }
+
+   .par {
+      margin-right: 100px;
+      font-size: 30px;
+   }
+
+   .picture {
+      width: 160px;
+      height: 300px;
+      margin-right: 80px;
+   }
+
+   #myBookBtn {
+      margin-right: 100px;
+   }
+
+   .network {
+      margin-right: 80px;
+      margin-top: 15px;
+      font-size: 5px;
+   }
+
+   a {
+      font-size: 10px;
+      margin-top: 20px;
+   }
+
+   .par2 {
+      font-size: 15px;
+   }
+}
